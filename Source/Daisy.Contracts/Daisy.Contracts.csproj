@@ -40,10 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comment\DeleteCommentRequest.cs" />
+    <Compile Include="Comment\CreateCommentRequest.cs" />
+    <Compile Include="Article\GetAllArticlesRequest.cs" />
+    <Compile Include="Article\CreateArticleRequest.cs" />
+    <Compile Include="Article\DeleteArticleRequest.cs" />
     <Compile Include="Error\ArgumentFaultInfo.cs" />
     <Compile Include="ArticleInfo.cs" />
     <Compile Include="CommentInfo.cs" />
     <Compile Include="Error\FaultInfo.cs" />
+    <Compile Include="Article\GetArticleRequest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
