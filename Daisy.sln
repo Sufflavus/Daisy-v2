@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{05B0BA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daisy.WebService", "Source\Daisy.WebService\Daisy.WebService.csproj", "{2081793F-4EE2-42C3-975B-A2C4E80509FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daisy.WebServiceProvider", "Source\Daisy.WebServiceProvider\Daisy.WebServiceProvider.csproj", "{8FB21D91-9315-49DD-B600-2ECB06795F13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,16 @@ Global
 		{2081793F-4EE2-42C3-975B-A2C4E80509FA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2081793F-4EE2-42C3-975B-A2C4E80509FA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2081793F-4EE2-42C3-975B-A2C4E80509FA}.Release|x86.ActiveCfg = Release|Any CPU
+		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,5 +148,6 @@ Global
 		{48DF9EE7-DB37-4503-AD14-41F406055FF6} = {05B0BA80-164C-4CEA-AE59-36925FC2F86A}
 		{64D76C5D-F56F-4732-B100-FA1CA4AB2DA8} = {05B0BA80-164C-4CEA-AE59-36925FC2F86A}
 		{2081793F-4EE2-42C3-975B-A2C4E80509FA} = {05B0BA80-164C-4CEA-AE59-36925FC2F86A}
+		{8FB21D91-9315-49DD-B600-2ECB06795F13} = {05B0BA80-164C-4CEA-AE59-36925FC2F86A}
 	EndGlobalSection
 EndGlobal
