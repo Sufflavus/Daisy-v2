@@ -8,7 +8,7 @@ namespace Daisy.WebServiceProvider
     {
         public static string GetServiceUrl()
         {
-            return ConfigurationManager.AppSettings.Get("ServiceUrl");
+            return ConfigurationManager.AppSettings.Get("DaisyServerAddress");
         }
     }
 }

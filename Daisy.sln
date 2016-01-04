@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daisy.WebService", "Source\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daisy.WebServiceProvider", "Source\Daisy.WebServiceProvider\Daisy.WebServiceProvider.csproj", "{8FB21D91-9315-49DD-B600-2ECB06795F13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daisy.QueueManager", "Source\Daisy.QueueManager\Daisy.QueueManager.csproj", "{8B9A7E1D-46C7-4B55-8BBA-D2D8CD3666AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,16 @@ Global
 		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{8FB21D91-9315-49DD-B600-2ECB06795F13}.Release|x86.ActiveCfg = Release|Any CPU
+		{8B9A7E1D-46C7-4B55-8BBA-D2D8CD3666AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9A7E1D-46C7-4B55-8BBA-D2D8CD3666AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9A7E1D-46C7-4B55-8BBA-D2D8CD3666AB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8B9A7E1D-46C7-4B55-8BBA-D2D8CD3666AB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8B9A7E1D-46C7-4B55-8BBA-D2D8CD3666AB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8B9A7E1D-46C7-4B55-8BBA-D2D8CD3666AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9A7E1D-46C7-4B55-8BBA-D2D8CD3666AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B9A7E1D-46C7-4B55-8BBA-D2D8CD3666AB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8B9A7E1D-46C7-4B55-8BBA-D2D8CD3666AB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8B9A7E1D-46C7-4B55-8BBA-D2D8CD3666AB}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,5 +161,6 @@ Global
 		{64D76C5D-F56F-4732-B100-FA1CA4AB2DA8} = {05B0BA80-164C-4CEA-AE59-36925FC2F86A}
 		{2081793F-4EE2-42C3-975B-A2C4E80509FA} = {05B0BA80-164C-4CEA-AE59-36925FC2F86A}
 		{8FB21D91-9315-49DD-B600-2ECB06795F13} = {05B0BA80-164C-4CEA-AE59-36925FC2F86A}
+		{8B9A7E1D-46C7-4B55-8BBA-D2D8CD3666AB} = {05B0BA80-164C-4CEA-AE59-36925FC2F86A}
 	EndGlobalSection
 EndGlobal

@@ -29,7 +29,6 @@ namespace Daisy.Dal.Repository
             using (IConnection connection = _connectionFactory.CreateDapperConnection())
             {
                 string sqlCommand = DbQueries.GetAllArticles;
-                connection.Open();
                 List<ArticleEntity> articles = connection.Query<ArticleEntity>(sqlCommand).ToList();
                 connection.Close();
                 return articles;
@@ -44,7 +43,6 @@ namespace Daisy.Dal.Repository
             using (IConnection connection = _connectionFactory.CreateDapperConnection())
             {
                 ArticleEntity article;
-                connection.Open();
                 using (SqlMapper.GridReader reader = connection.QueryMultiple(sqlCommand, new { id }))
                 {
                     article = reader.Read<ArticleEntity>().SingleOrDefault();

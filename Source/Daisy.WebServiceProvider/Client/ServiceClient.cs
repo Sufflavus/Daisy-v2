@@ -22,9 +22,16 @@ namespace Daisy.WebServiceProvider.Client
 
         public ArticleInfo GetArticleById(Guid id)
         {
-            var client = new JsonServiceClient(SettingsProvider.GetServiceUrl());
-            var request = new GetArticleRequest { Id = id };
-            return client.Get<ArticleInfo>(request);
+            try
+            {
+                var client = new JsonServiceClient(SettingsProvider.GetServiceUrl());
+                var request = new GetArticleRequest { Id = id };
+                return client.Get<ArticleInfo>(request);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
 

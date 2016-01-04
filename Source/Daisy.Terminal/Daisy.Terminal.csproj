@@ -182,9 +182,9 @@
       <Project>{25e2f17c-7c7e-4d0d-b1f0-be9080b72640}</Project>
       <Name>Daisy.BusinessLogic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Daisy.ServiceProvider\Daisy.ServiceProvider.csproj">
-      <Project>{48df9ee7-db37-4503-ad14-41f406055ff6}</Project>
-      <Name>Daisy.ServiceProvider</Name>
+    <ProjectReference Include="..\Daisy.WebServiceProvider\Daisy.WebServiceProvider.csproj">
+      <Project>{8fb21d91-9315-49dd-b600-2ecb06795f13}</Project>
+      <Name>Daisy.WebServiceProvider</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -3,7 +3,7 @@ using System.ServiceModel;
 
 using Daisy.BusinessLogic.Models;
 using Daisy.Contracts;
-using Daisy.ServiceProvider.Interfaces;
+using Daisy.WebServiceProvider.Client;
 
 using Nelibur.ObjectMapper;
 
